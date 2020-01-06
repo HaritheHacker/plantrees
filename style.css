@@ -1,0 +1,159 @@
+body{
+	background: #181818;
+	font-family: Helvetica,Arial;
+	font-size: 14px;
+}
+.btn-container{
+	height: 200px;
+	width: 200px;
+	margin:auto;
+	position: relative;
+	margin-top: 9rem;
+}
+.clicker{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border : 3.5px solid #fefefe;
+	background-color: rgba(24, 24, 24, 1);
+}
+.clicker:hover{
+	background-color: rgba(113, 109, 102, 1);
+	cursor: pointer;
+}
+.clicker:active{
+	background-color: rgba(249, 215, 171, 1);
+	cursor: pointer;
+}
+
+
+.clicker-halo{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	transform:scale(0);
+	border : 0px;
+	position: absolute;
+	top: 0px;
+	z-index: -1;
+	transform-origin : 50 50;
+	background-color: rgba(240, 212, 127, 0.5);
+	transition : all 0.3s ease-in-out;
+	opacity: 1;
+}
+.clicker-halo-on{
+	transform:scale(2);
+	border : 0px;
+	opacity: 0;
+}
+.display-none{
+	display: none;
+}
+
+
+.hud-container{
+	width: 300px;
+	position: absolute;
+	top: 40%;
+	left: 15%;
+}
+.hud-container .title{
+	border-radius: 15px;
+	width: 100%;
+	background-color: rgba(24, 24, 24, 1);
+	border:1px solid #fefefe;
+	padding: 0px;
+	margin:0;
+	text-align: center;
+}
+.hud-container .title h1{
+	padding: 10px 0px 20px;
+	margin:0;
+	color: #FEFEFE;
+	font-family: "Roboto",Arial,sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+}
+.hud-container .score{
+	border-radius: -15px;
+	width: 100%;
+	background-color: rgba(24, 24, 24, 1);
+	border:1px solid #fefefe;
+	padding: 0px;
+	margin:0;
+	text-align: center;
+	position: relative;
+	z-index: 10;
+	top: -13px;
+}
+.hud-container .score p{
+	color: #fefefe;
+	padding-bottom: 10px;
+	font-family: "Roboto",Arial,sans-serif;
+	font-weight: lighter;
+}
+.message-ee{
+	position: absolute;
+	height: 50px;
+	width: 300px;
+	background-color: #FEFEFE;
+	text-align: center;
+	padding-top: 10px 0px;
+	opacity: 0;
+	transition:all 0.3s;
+	top: -100px;
+	left: 300px;
+}
+.message-ee-active{
+	opacity: 1;
+	top: -50px;
+}
+
+
+
+.message-ee .message-text{
+	top: 6px;
+	position: relative;
+	font-size: 30px;
+	font-family: "Novecento sans",Arial,sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: rgba(24, 24, 24, 1);
+}
+
+
+
+
+
+/*.clicker-halo{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border : 3.5px solid #fefefe;
+	position: absolute;
+	top: 0px;
+	z-index: -1;
+	transform-origin : 50 50;
+	animation : scale-halo 1s ease-in-out 0s infinite normal running;
+
+}
+@keyframes scale-halo{
+	0%{
+		transform:scale(0);
+		border : 0px;
+		background-color: rgba(240, 212, 127, 0.5);
+	}
+	100%{
+		transform:scale(2);
+		border : 0px;
+	}
+	}*/
+
+
+
+
+
+
+
+
+
